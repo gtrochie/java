@@ -14,7 +14,6 @@ public class LockerTest {
         System.out.println("Is it open now? " + myLocker.isOpen());
 
         // Change PIN while open
-        System.out.println("\n--- Changing PIN while open ---");
         myLocker.changePin(1234, 9999);
 
         //Lock it and try the NEW pin

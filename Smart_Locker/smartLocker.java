@@ -20,11 +20,17 @@ public class smartLocker {
         isOpen = false;
     }
     public void changePin(int oldPin, int newPin) {
-        if (this.pin == oldPin) {
+        if (isOpen && this.pin == oldPin) {
             this.pin = newPin;
+        } else if (!isOpen) {
+            System.out.println("Locker must be OPEN to change the PIN.");
+        } else {
+            System.out.println("Old PIN is incorrect.");
+        }
+    }
+    public boolean isOpen() {
+            return isOpen;
         }
 
-
-    }
 }
 

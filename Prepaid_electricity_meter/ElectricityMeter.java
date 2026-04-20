@@ -1,7 +1,7 @@
 public class ElectricityMeter {
     private double unitsBalance;
 
-    public ElectricityMeter(double unitsBalance){
+    public ElectricityMeter(){
         this.unitsBalance = 0.0;
     }
     public void Topup(double amount){

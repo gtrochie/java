@@ -4,7 +4,7 @@ public class ElectricityMeter {
     public ElectricityMeter(){
         this.unitsBalance = 0.0;
     }
-    public void Topup(double amount){
+    public void topUp(double amount){
         if (amount > 0){
             unitsBalance += amount;
         }
@@ -21,6 +21,7 @@ public class ElectricityMeter {
         }
     }
     public double getUnitsBalance(){
+
         return unitsBalance;
     }
 }

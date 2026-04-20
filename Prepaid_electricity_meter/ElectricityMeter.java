@@ -13,11 +13,14 @@ public class ElectricityMeter {
         }
     }
     public void useElectricity (double amount){
-        if (unitsBalance > amount){
+        if (amount > 0 && unitsBalance >= amount){
             unitsBalance -= amount;
         }
         else{
             System.out.println("you don't have enough electricity");
         }
+    }
+    public double getUnitsBalance(){
+        return unitsBalance;
     }
 }

@@ -40,6 +40,7 @@ public class CoffeeMachine {
             totalBrewedCount ++;
             System.out.printf("waterlevel remaining : %d\n",waterLevel);
             System.out.printf("beanWeight remaining: %d\n",beanWeight);
+            System.out.printf("cups made: %d\n",totalBrewedCount);
             System.out.println("Enjoy your coffee!");
 
         }
@@ -48,10 +49,10 @@ public class CoffeeMachine {
     public int getRemainingCups() {
         int cups_bywater = waterLevel / 250;
         int cups_bybeans = beanWeight / 15;
-
         if (cups_bybeans > cups_bywater) {
             return cups_bywater;
-        } else {
+        }
+        else {
             return cups_bybeans;
         }
 

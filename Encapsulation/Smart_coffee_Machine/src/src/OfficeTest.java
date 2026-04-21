@@ -4,6 +4,6 @@ public class OfficeTest {
         smeg.addWater(1500);
         smeg.addBeans(750);
         smeg.makeCoffee();
-        System.out.println(smeg.getRemainingCups());
+        System.out.println("remaining cups: " + smeg.getRemainingCups());
     }
 }

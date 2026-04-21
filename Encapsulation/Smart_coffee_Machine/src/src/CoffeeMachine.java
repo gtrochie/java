@@ -49,12 +49,7 @@ public class CoffeeMachine {
     public int getRemainingCups() {
         int cups_bywater = waterLevel / 250;
         int cups_bybeans = beanWeight / 15;
-        if (cups_bybeans > cups_bywater) {
-            return cups_bywater;
-        }
-        else {
-            return cups_bybeans;
-        }
+        return Math.min(cups_bybeans,cups_bywater);
 
     }
 }

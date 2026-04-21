@@ -3,6 +3,6 @@ public class WalletTest {
         DigitalWallet capiWallet = new DigitalWallet( "Ndivhuwo");
         capiWallet.deposit(5000);
         capiWallet.withdraw(2500);
-        capiWallet.getBalance();
+        System.out.println("your wallet balance is " + capiWallet.getBalance());
     }
 }

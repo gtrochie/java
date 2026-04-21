@@ -27,14 +27,33 @@ public class CoffeeMachine {
         }
     }
     public void makeCoffee(){
-        if (waterLevel >= 250 && beanWeight >= 15){
-            System.out.println("making coffee");
+        if (waterLevel < 250){
+            System.out.println("Need more water");
+        }
+        else if (beanWeight < 15){
+            System.out.println("Need more Beans");
+        }
+
+        else{
+            waterLevel -= 250;
+            beanWeight -= 15;
+            totalBrewedCount ++;
+            System.out.printf("waterlevel remaining : %d\n",waterLevel);
+            System.out.printf("beanWeight remaining: %d\n",beanWeight);
+            System.out.println("Enjoy your coffee!");
 
         }
-        else {
-            System.out.println("Refill required!");
-        }
+
     }
+    public int getRemainingCups() {
+        int cups_bywater = waterLevel / 250;
+        int cups_bybeans = beanWeight / 15;
 
+        if (cups_bybeans > cups_bywater) {
+            return cups_bywater;
+        } else {
+            return cups_bybeans;
+        }
 
+    }
 }

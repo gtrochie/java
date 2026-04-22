@@ -27,7 +27,7 @@ public class BankAccount {
     public void withdraw(int amount){
         if (amount > 0 && amount <= balance){
             balance -= amount;
-            System.out.println("Withdrew: R" + amount);
+            System.out.println("Withdrew: R" + amount + " your remaining balance is " + balance);
         }
         else{
             System.out.println("BLOCKED: insufficient funds");

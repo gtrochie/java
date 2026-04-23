@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Basics/Basics.iml" filepath="$PROJECT_DIR$/Basics/Basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Encapsulation/Digital_wallet/Digital_wallet.iml" filepath="$PROJECT_DIR$/Encapsulation/Digital_wallet/Digital_wallet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Encapsulation/Encapsulation.iml" filepath="$PROJECT_DIR$/Encapsulation/Encapsulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Encapsulation/Fitness_Traker/Fitness_Traker.iml" filepath="$PROJECT_DIR$/Encapsulation/Fitness_Traker/Fitness_Traker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Encapsulation/Smart_coffee_Machine/Smart_coffee_Machine.iml" filepath="$PROJECT_DIR$/Encapsulation/Smart_coffee_Machine/Smart_coffee_Machine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Encapsulation/gym_membership/gym_membership.iml" filepath="$PROJECT_DIR$/Encapsulation/gym_membership/gym_membership.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/java.iml" filepath="$PROJECT_DIR$/.idea/java.iml" />
+    </modules>
+  </component>
+</project>
